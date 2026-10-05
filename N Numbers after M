@@ -1,0 +1,7 @@
+N = int(input())
+M = int(input())
+count = 0
+while count < M:
+    count = count + 1 
+    Next = N + count 
+    print(Next) 
