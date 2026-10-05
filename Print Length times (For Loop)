@@ -1,0 +1,4 @@
+Name = input()
+lenght = len(Name)
+for i in range (lenght):
+    print(Name[0])
