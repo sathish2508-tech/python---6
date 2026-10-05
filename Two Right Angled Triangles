@@ -1,0 +1,8 @@
+N = int(input())
+repeat = 0
+while repeat < 2:
+    c = 1
+    while c <= N:
+        print(str(c) * c)
+        c = c + 1
+    repeat = repeat + 1
