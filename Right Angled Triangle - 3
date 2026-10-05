@@ -1,0 +1,8 @@
+N = int(input())
+c = 0
+while c < N - 1:
+    c = c + 1
+    star = "* " * c 
+    print(star)
+plus = "+ " * N 
+print(plus)
