@@ -1,0 +1,8 @@
+N = int(input())
+req = 0
+while req < 2:
+    c = 0
+    while c < N:
+        c = c + 1 
+        print("* " * c)
+    req = req + 1 
