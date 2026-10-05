@@ -1,0 +1,5 @@
+N = int(input())
+value = N + 10
+while N < value:
+    N = N + 1 
+    print(N)
