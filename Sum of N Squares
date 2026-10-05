@@ -1,0 +1,9 @@
+N = int(input())
+c = 0
+S = 0
+q = 0
+while c < N:
+    S = S + 1
+    q = q + S ** 2
+    c = c + 1 
+print(q)
