@@ -1,0 +1,7 @@
+M = int(input())
+N = int(input())
+count = 0
+while count < M:
+    plus = "+ " * N 
+    print(plus)
+    count = count + 1
