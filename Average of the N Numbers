@@ -1,0 +1,9 @@
+N = int(input())
+count = 0
+sum = 0
+while count < N: 
+    value = count + 1
+    sum = sum + value
+    Avg = sum / N
+    count = count + 1 
+print(Avg)
