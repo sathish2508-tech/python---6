@@ -1,0 +1,7 @@
+N = int(input())
+M = int(input())
+c = 0
+while c < N:
+    c = c + 1  
+    strin = str(c)
+    print(str(strin + " ") * M)
