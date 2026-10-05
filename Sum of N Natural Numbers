@@ -1,0 +1,7 @@
+N = int(input())
+count = 0
+while count < N:
+    value = count + 1
+    sum = (value * (value - 1)) // 2 + N
+    count = count + 1
+print(sum)
