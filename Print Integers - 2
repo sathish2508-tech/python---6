@@ -1,0 +1,6 @@
+N = int(input())
+M = int(input())
+
+while N <= M:
+    print(N)
+    N = N + 1
