@@ -1,0 +1,8 @@
+N = int(input())
+count = 0
+sum = 0
+while count < N:
+    sum = count + 1
+    cubes = sum ** 3
+    print(cubes)
+    count = count + 1
