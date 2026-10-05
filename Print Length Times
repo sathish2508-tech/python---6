@@ -1,0 +1,6 @@
+N = input()
+c = 0
+lenght = len(N)
+while c < lenght:
+    print(N[0] * 1)
+    c = c + 1
