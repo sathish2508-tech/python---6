@@ -1,0 +1,7 @@
+N = int(input())
+M = int(input())
+count = 0
+while count < N:
+    star = "*" * M 
+    print(star)
+    count = count + 1
