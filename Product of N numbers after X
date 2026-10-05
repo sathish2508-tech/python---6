@@ -1,0 +1,10 @@
+N = int(input())
+M = int(input())
+c = 0
+sum = N + 1
+p = 1
+while c < M:
+    p = p * sum
+    sum = sum + 1
+    c = c + 1
+print(p)
