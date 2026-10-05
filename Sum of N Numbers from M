@@ -1,0 +1,9 @@
+M = int(input())
+N = int(input())
+count = 0
+sum = 0
+while count < N:
+    value = count + M 
+    sum = sum + value
+    count = count + 1
+print(sum)
